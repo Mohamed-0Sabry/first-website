@@ -407,6 +407,18 @@ nav {
     padding: 7px;
     text-align: start;
   }
+
+  .second-main-image p {
+    font-size: 3vw;
+  }
+
+  .img-button {
+    font-size: 3.5vw;
+    letter-spacing: 0px;
+    left: 27%;
+    width: 45%;
+    height: 30%;
+  }
 }
 
 /* Tablet styles */
