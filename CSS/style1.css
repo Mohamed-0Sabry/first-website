@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;700;800&family=Cairo:wght@200;300;400;500;600;700;1000&family=Lalezar&family=Reem+Kufi:wght@400;600&display=swap");
+
+:root {
+  /* Your existing root variables */
+}
+
+* {
+  /* Your existing global styles */
+}
+
+/* Add the viewport meta tag here if it's not already added */
+
+/* Your existing logo and navigation styles */
+
+ul {
+  /* Your existing ul styles */
+}
+
+ul li {
+  /* Your existing ul li styles */
+}
+
+ul li a {
+  /* Your existing ul li a styles */
+}
+
+nav {
+  /* Your existing nav styles */
+}
+
+.container {
+  /* Your existing container styles */
+}
+
+.white-block {
+  /* Your existing white-block styles */
+}
+
+.first-text {
+  /* Your existing first-text styles */
+}
+
+.para {
+  /* Your existing para styles */
+}
+
+.first.button {
+  /* Your existing first button styles */
+}
+
+.second-main {
+  /* Your existing second-main styles */
+}
+
+.cover {
+  /* Your existing cover styles */
+}
+
+.left {
+  /* Your existing left styles */
+}
+
+.right {
+  /* Your existing right styles */
+}
+
+.slide {
+  /* Your existing slide styles */
+}
+
+.slide i {
+  /* Your existing slide i styles */
+}
+
+.slide i:hover {
+  /* Your existing slide i hover styles */
+}
+
+.images-in-the-second-main {
+  /* Your existing images-in-the-second-main styles */
+}
+
+.images-in-the-second-main img {
+  /* Your existing images-in-the-second-main img styles */
+}
+
+.images-in-the-second-main .second-main-image {
+  /* Your existing images-in-the-second-main .second-main-image styles */
+}
+
+.divforimg {
+  /* Your existing divforimg styles */
+}
+
+.second-main-image p {
+  /* Your existing second-main-image p styles */
+}
+
+.img-button {
+  /* Your existing img-button styles */
+}
+
+.second-main-image:hover .img-button {
+  /* Your existing second-main-image hover styles */
+}
+
+.second-main-image:not(:hover) .img-button {
+  /* Your existing second-main-image not hover styles */
+}
+
+.img-button:hover {
+  /* Your existing img-button hover styles */
+}
+
+.img-button:not(:hover) {
+  /* Your existing img-button not hover styles */
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .white-block {
+    width: 90%;
+  }
+
+  .slide {
+    margin-bottom: 40px;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    background-attachment: scroll;
+  }
+
+  .white-block {
+    width: 70%;
+  }
+
+  .slide {
+    margin-bottom: 50px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+  .container {
+    background-attachment: fixed;
+  }
+
+  .white-block {
+    width: 75%;
+  }
+
+  /* Add more specific styles for larger screens if needed */
+}
