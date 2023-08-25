@@ -202,7 +202,7 @@ nav {
   transform: translateY(-7px);
 }
 
-.missionandvision {
+.textlong {
   position: relative;
   right: 50%;
   transform: translateX(47%);
@@ -212,6 +212,11 @@ nav {
   font-weight: 800;
   letter-spacing: -1px;
   font-family: var(--second-font);
+}
+
+.textlong.services {
+  top: -25px;
+  margin: 100px 0px 40px;
 }
 
 .second-main {
