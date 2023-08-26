@@ -220,7 +220,6 @@ nav {
 }
 
 .second-main {
-  /* background-image: linear-gradient(#6ea3a8 -90%, white 95%); */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
@@ -280,7 +279,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  padding: 25px;
+  padding: 10px 80px;
 }
 
 .images-in-the-second-main img {
@@ -311,6 +310,25 @@ nav {
 
 .divforimg {
   position: relative;
+}
+
+.category-title {
+  align-items: center;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 80px;
+}
+
+.title-for-img {
+  margin-bottom: 5px;
+  font-size: 2.4vw;
+  font-family: var(--fourth-font);
+  font-weight: 400;
+  position: relative;
+  right: 50%;
+  width: fit-content;
+  transform: translateX(50%);
 }
 
 .second-main-image p {
