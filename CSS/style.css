@@ -20,6 +20,10 @@
   font-family: var(--second-font);
 }
 
+.unknown {
+  height: 200px;
+}
+
 .footer {
   display: flex;
   background-color: var(--dark-blue);
