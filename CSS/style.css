@@ -390,7 +390,12 @@ nav {
   position: relative;
 }
 
+.holding-more > a {
+  text-decoration: none;
+}
+
 .see-more {
+  text-transform: uppercase;
   position: relative;
   background-color: var(--yellow);
   color: var(--dark-blue);
@@ -398,7 +403,7 @@ nav {
   font-size: 23px;
   cursor: pointer;
   transition: 0.5s;
-  padding: 5px;
+  padding: 10px;
   margin: 20px 0;
   display: flex;
   gap: 10px;
@@ -412,7 +417,7 @@ nav {
 }
 
 .see-more > i {
-  transform: translateY(-5.4%) translateX(-20px);
+  transform: translateY(-10%) translateX(-20px);
   font-size: 2.2vw;
 }
 
