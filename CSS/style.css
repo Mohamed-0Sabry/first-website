@@ -408,6 +408,7 @@ nav {
   font-family: var(--third-font);
   right: 50%;
   width: 20%;
+  transform: translateX(50%);
 }
 
 .see-more > i {
