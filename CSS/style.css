@@ -20,7 +20,7 @@
   font-family: var(--second-font);
 }
 
-.lineabovenav {
+.footer {
   display: flex;
   background-color: var(--dark-blue);
   direction: ltr;
@@ -29,7 +29,7 @@
   align-items: center;
   padding: 10px 0 10px 25px;
 }
-.lineabovenav a {
+.footer a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -41,11 +41,11 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-.lineabovenav a i {
+.footer a i {
   margin-right: 5px;
 }
 
-.lineabovenav a:hover {
+.footer a:hover {
   transition: all 0.3s;
   color: var(--yellow);
 }
@@ -230,13 +230,13 @@ nav {
 
 .cover {
   font-weight: 600;
-  font-size: 13px;
-  padding: 15px;
+  font-size: 1.4vw;
+  padding: 20px;
   display: flex;
-  align-items: center;
-  height: 200px;
+  /* align-items: center; */
+  /* height: 160px; */
   background-color: var(--dark-blue);
-  border-radius: 45px;
+  border-radius: 35px;
   transition: 0.3s;
   color: var(--grey);
   text-align: justify;
